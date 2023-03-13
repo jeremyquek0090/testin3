@@ -1,0 +1,12 @@
+{% if book.languages %}
+<div class="book-languages">
+  <div class="book-languages-label">{{ 'Languages'|t }}</div>
+  <ul>
+    {% for language in book.languages %}
+    <li{% if book.language == language %} class="active"{% endif %}>
+      <a href="{{ book.root }}/{{ language }}/{{ page.path }}">{{ language|language_name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

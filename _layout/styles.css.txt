@@ -1,0 +1,26 @@
+.book-languages {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.book-languages-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.book-languages ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-languages li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.book-languages li.active a {
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+{
+  "title": "My GitBook",
+  "author": "John Doe",
+  "description": "This is my GitBook.",
+  "language": "en",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "file": "book.md"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "file": "book-fr.md"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "file": "book-es.md"
+    }
+  ],
+  "plugins": ["language-picker"]
+}
