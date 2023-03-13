@@ -7,17 +7,17 @@
     {
       "code": "en",
       "name": "English",
-      "file": "book.md"
+      "file": "testing.md"
     },
     {
       "code": "fr",
       "name": "Français",
-      "file": "book-fr.md"
+      "file": "testing-fr.md"
     },
     {
       "code": "es",
       "name": "Español",
-      "file": "book-es.md"
+      "file": "testing-es.md"
     }
   ],
   "plugins": ["language-picker"]
