@@ -1,24 +1,10 @@
 {
-  "title": "My GitBook",
-  "author": "John Doe",
-  "description": "This is my GitBook.",
-  "language": "en",
-  "languages": [
-    {
-      "code": "en",
-      "name": "English",
-      "file": "testing.md"
-    },
-    {
-      "code": "fr",
-      "name": "Français",
-      "file": "testing-fr.md"
-    },
-    {
-      "code": "es",
-      "name": "Español",
-      "file": "testing-es.md"
+  "plugins": ["language-picker"],
+  "pluginsConfig": {
+    "language-picker": {
+      "languages": ["en", "fr", "zh", "ja", "ko"],
+      "getLanguageName": "language_name",
+      "defaultLanguage": "en"
     }
-  ],
-  "plugins": ["language-picker"]
+  }
 }
